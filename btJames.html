@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>btJames</title>
+</head>
+<body>
+<script>
+    let numbers = [1, 3, 6, 8, 10, 14, 15, 18, 21, 27]
+    console.log(numbers)
+
+
+    // Bai1 tạo mảng và in ra số lớn hơn hoặc bằng 10
+    // for (let i = 0; i < numbers.length; i++) {
+    //     if (numbers[i]>=10){
+    //         console.log(numbers[i])
+    //     }
+    // }
+
+
+    //Bai2 tìm số lớn nhất trong mảng và vị trí của nó
+    // let max = numbers[0]
+    // for (let i = 0; i <= numbers.length; i++) {
+    //     if (numbers[i] > max) {
+    //         max = numbers[i]
+    //        // console.log(`Số lớn nhất trong mảng: ${max} và nằm ở vị trí ${numbers.length}`)
+    //     }
+    // }document.write(`Số lớn nhất trong mảng: ${max} và nằm ở vị trí ${numbers.length}`)
+
+
+    //Bai3 tính tổng và giá trị trung bình tại mảng
+    // let gtln=0
+    // for (let i = 0; i < numbers.length; i++) {
+    //     gtln += numbers[i]
+    //     numbers[i]= gtln
+    //     console.log(gtln)
+    // }document.write("Giá trị trung bình:"+ gtln/numbers.length + "và Tổng:" +gtln)
+
+
+    //Bai4  Viết chương trình khởi tạo/nhập vào một mảng số nguyên và đảo ngược các phần tử trong mảng đó.
+    // numbers.sort(function (a, b){             // sắp sếp theo giảm dần
+    //     if (a<b){
+    //         return  1;
+    //     }
+    //     if (a>b){
+    //         return - 1;
+    //     }
+    //     return 0;
+    // });
+    // console.log(numbers)
+
+    // numbers.sort(function (){                  // đảo ngược phan tu
+    //     return - 1;
+    // })
+    // console.log(numbers)
+
+    //Bài 5. Đếm số nguyên âm
+    // let count = 0
+    // for (let i = 0; i < numbers.length; i++) {
+    //     if (numbers[i] > count) {
+    //         console.log(numbers[i] + "Là số nguyên dương")
+    //     } else if (numbers[i] < count) {
+    //         console.log(numbers[i] + "Là số nguyên âm")
+    //     }
+    // }
+
+    //Bai6. Viết trường trình nhập số và ktra xem nó là so duong hay âm
+    // let v = +prompt("Nhập")
+    // let flag = false
+    // for (let i = 0; i < numbers.length; i++) {  // cách 1
+    //     if (v === numbers[i]) {
+    //         flag = true;
+    //         break;
+    //     }}
+    //     if (flag) {
+    //         alert("V is in arry")
+    //     } else {
+    //         alert("V is in not arry")
+    // }
+
+    // let v = +prompt("Nhập")
+    // if (numbers.indexOf(v)!== -1){            // cách 2
+    //     alert("v is in arry")
+    // }
+    // else {
+    //     alert("v is in not arry")
+    // }
+
+
+    //bai7
+    // let v = + prompt("nhap")
+    // for (let i = 0; i < numbers.length; i++) {
+    //     if (numbers[i] === v){
+    //         numbers.slice(i, 1)
+    //     }
+    // }
+    // console.log(numbers)
+
+
+    //bai8.
+    
+</script>
+</body>
+</html>
